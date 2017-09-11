@@ -22,7 +22,7 @@
 @String{ICRS          = {Proc. Int'l Reliable Software}}
 @String{ICSE          = "Proc. Int'l Conf. Software Engineering (ICSE)"}
 @String{ICSR          = {Proc. Int'l Conf. Software Reuse (ICSR)}}
-@String{IEEE          = {IEEE Computer Society}}
+@String{IEEE          = {IEEE}}
 @String{IEEEAddr      = "Los Alamitos, CA, USA"}
 @String{IEEEAddrW     = {Washington, DC, USA}}
 @String{IEEECSP       = "IEEE Computer Society Press"}
@@ -53,6 +53,16 @@
 @String{SIGMETRICS    = "SIGMETRICS Perform. Eval. Rev."}
 @String{SPLC          = "Proc. Int'l Software Product Line Conference (SPLC)"}
 @String{CCGRID        = "Proc. Int'l Symposium on Cluster, Cloud and Grid Computing (CCGrid)"}
+@String{ECSA          = "Proc. of European Conference on Software Architecture (ECSA)"}
+@String{TAAS          = "ACM Trans. on Autonomous and Adaptive Systems (TAAS)"}
+@String{TCC           = "IEEE Transactions on Cloud Computing (TCC)"}
+@String{SCC           = "Proc. Int'l Conference on Services Computing (SCC)"}
+@String{JSEP          = "Wiley Journal of Software: Evolution and Process (JSEP)"}
+@String{ICML          = "Proc. of Int'l Conference on Machine Learning (ICML)"}
+@String{NIPS          = "Proc. of Advances in neural information processing systems (NIPS)"}
+@String{NIPS          = "Proc. of 12th USENIX conference on Operating Systems Design and Implementation (OSDI)"}
+@String{SIGMETRICSCONF    = "Int'l Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)"}
+
 
 @InProceedings{SGAK:ESECFSE15,
   author    = {Siegmund, Norbert and Grebhahn, Alexander and Apel, Sven and K\"{a}stner, Christian},
@@ -66,7 +76,6 @@
   pages     = {284--294},
   doi       = {10.1145/2786805.2786845},
   url       = {http://doi.acm.org/10.1145/2786805.2786845},
-  address   = ACMAddr,
   keywords  = {Performance-influence models, machine learning, sampling},
   numpages  = {11},
 }
@@ -100,8 +109,7 @@
   doi       = {10.1109/ASE.2015.45},
   url       = {http://dx.doi.org/10.1109/ASE.2015.45},
   acmid     = {2916264},
-  address   = IEEEAddrW,
-  numpages  = {11},
+  numpages  = {11}
 }
 
 @InProceedings{XJFZPT:FSE15,
@@ -126,27 +134,9 @@
   booktitle = SEAMS,
   year      = {2017},
   location  = {Buenos Aires, Argentina},
-  month     = {May},
   addendum  = {Accepted for publication. (23\% acceptance rate)},
   numpages  = {11},
   publisher = IEEE,
-}
-
-@InProceedings{MWKTS:ASE16,
-  author    = {Meinicke, Jens and Wong, Chu-Pan and K\"{a}stner, Christian and Th\"{u}m, Thomas and Saake, Gunter},
-  title     = {On Essential Configuration Complexity: Measuring Interactions in Highly-configurable Systems},
-  booktitle = ASE,
-  year      = {2016},
-  publisher = ACM,
-  location  = {Singapore, Singapore},
-  month     = {September},
-  isbn      = {978-1-4503-3845-5},
-  pages     = {483--494},
-  doi       = {10.1145/2970276.2970322},
-  url       = {http://doi.acm.org/10.1145/2970276.2970322},
-  acmid     = {2970322},
-  address   = ACMAddr,
-  numpages  = {12},
 }
 
 @InProceedings{XZHZSYZP:SOSP13,
@@ -177,7 +167,6 @@
   pages     = {39-48},
   doi       = {10.1109/MASCOTS.2016.17},
   url       = {http://doi.acm.org/10.1145/2517349.2522727},
-  address   = IEEEAddr,
   numpages  = {10}, 
 }
 
@@ -284,7 +273,8 @@
   journal   = {Handbook of Research on Machine Learning Applications and Trends: Algorithms, Methods, and Techniques},
   volume    = {1},
   pages     = {242--264},
-  year      = {2009}
+  year      = {2009},
+  publisher = {IGI Global}
 }
 
 @InProceedings{VPGFC:ICPE17,
@@ -347,7 +337,8 @@
   author    = {Zhang, Yi and Guo, Jianmei and Blais, Eric and Czarnecki, Krzysztof},
   booktitle = ASE,
   pages     = {365--373},
-  year      = {2015}
+  year      = {2015},
+  publisher = IEEE
 } 
 
 @InProceedings{KMF:ASE16,
@@ -374,7 +365,7 @@
   booktitle = ICSE,
   pages     = {382--391},
   year      = {2013},
-  publisher = {IEEE Press}
+  publisher = IEEE
 }
 
 @Article{KMM:ESE,
@@ -400,7 +391,7 @@
 @Article{AJP:JSEP,
   title     = {Classification and comparison of architecture evolution reuse knowledge —- a systematic review},
   author    = {Ahmad, Aakash and Jamshidi, Pooyan and Pahl, Claus},
-  journal   = {Journal of Software: Evolution and Process},
+  journal   = JSEP,
   volume    = {26},
   number    = {7},
   pages     = {654--691},
@@ -432,12 +423,10 @@
   year      = {2017}
 } 
 
-@Article{YK:SIGMETRICS,
+@InProceedings{YK:SIGMETRICS,
   title     = {A recursive random search algorithm for large-scale network parameter configuration},
   author    = {Ye, Tao and Kalyanaraman, Shivkumar},
-  journal   = {ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems},
-  volume    = {31},
-  number    = {1},
+  booktitle = SIGMETRICSCONF,
   pages     = {196--205},
   year      = {2003},
   publisher = {ACM}
@@ -463,7 +452,6 @@
   title     = {Combining multi-objective search and constraint solving for configuring large software product lines},
   author    = {Henard, Christopher and Papadakis, Mike and Harman, Mark and Le Traon, Yves},
   booktitle = ICSE,
-  volume    = {1},
   pages     = {517--528},
   year      = {2015},
   publisher = IEEE
@@ -472,9 +460,7 @@
 @InProceedings{OK:SIGMETRICS07,
   title     = {Optimizing system configurations quickly by guessing at the performance},
   author    = {Osogami, Takayuki and Kato, Sei},
-  booktitle = {Proc. of International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)},
-  volume    = {35},
-  number    = {1},
+  booktitle = SIGMETRICSCONF,
   year      = {2007}
 }
 
@@ -540,7 +526,7 @@
   booktitle = {Proc. of Working Conference on Software Visualization (VISSOFT)},
   pages     = {1--9},
   year      = {2013},
-  publisher = {IEEE}
+  publisher = IEEE
 } 
 
 @InProceedings{JGAP:CSMR13,
@@ -552,15 +538,12 @@
   publisher = {IEEE}
 }
 
-@InProceedings{HSCMAR:SIGPLAN,
-  title     = {Dynamic knobs for responsive power-aware computing},
-  author    = {Hoffmann, Henry and Sidiroglou, Stelios and Carbin, Michael and Misailovic, Sasa and Agarwal, Anant and Rinard, Martin},
-  booktitle = {ACM SIGPLAN Notices},
-  volume    = {46},
-  number    = {3},
-  pages     = {199--212},
-  year      = {2011},
-  publisher = {ACM}
+
+@inproceedings{HSCMAR:SIGPLAN,
+  title={Dynamic knobs for responsive power-aware computing},
+  author={Hoffmann, Henry and Sidiroglou, Stelios and Carbin, Michael and Misailovic, Sasa and Agarwal, Anant and Rinard, Martin},
+  booktitle={In Proc. of Int'l Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},
+  year={2011}
 }
 
 @Article{EEM:TSE,
@@ -755,7 +738,7 @@
 }
 
 @article{LC:TOIT,
-  title     = {Patterns in the chaos—a study of performance variation and predictability in public iaas clouds},
+  title     = {{Patterns in the chaos - a study of performance variation and predictability in public IaaS clouds}},
   author    = {Leitner, Philipp and Cito, J{\"u}rgen},
   journal   = TOIT,
   volume    = {16},
@@ -788,7 +771,7 @@
   author    = {Pahl, Claus and Jamshidi, Pooyan and Zimmermann, Olaf},
   journal   = TOIT,
   year      = {2017},
-  publisher = {ACM}
+  publisher = {ACM, In Press}
 }
 
 @inproceedings{APJE:CCGRID17,
@@ -897,4 +880,294 @@
   pages     = {459--468},
   year      = {1991},
   publisher = {Taylor \& Francis Group}
+}
+
+@inproceedings{SECT:SEAMS15,
+  title     = {Software engineering meets control theory},
+  author    = {Filieri, Antonio and Maggio, Martina and Angelopoulos, Konstantinos and D'Ippolito, Nicol{\'a}s and Gerostathopoulos, Ilias and Hempel, Andreas Berndt and Hoffmann, Henry and Jamshidi, Pooyan and Kalyvianaki, Evangelia and Klein, Cristian and others},
+  booktitle = SEAMS,
+  pages     = {71--82},
+  year      = {2015},
+  publisher = {IEEE Press}
+}
+
+@inproceedings{FJBE:FC15,
+  title     = {Self-adaptation challenges for cloud-based applications: A control theoretic perspective},
+  author    = {Farokhi, Soodeh and Jamshidi, Pooyan and Brandic, Ivona and Elmroth, Erik},
+  booktitle = {10th International Workshop on Feedback Computing},
+  volume    = {2015},
+  year      = {2015}
+}
+
+@article{PJW:JSEP,
+  title     = {Cloud architecture continuity: Change models and change rules for sustainable cloud software architectures},
+  author    = {Pahl, Claus and Jamshidi, Pooyan and Weyns, Danny},
+  journal   = JSEP,
+  volume    = {29},
+  number    = {2},
+  year      = {2017},
+  publisher = {Wiley Online Library}
+}
+
+@Misc{TL4CO,
+  author    = {{TL4CO: Transfer Learning for Configuration Optimization}},
+  note      = {https://github.com/dice-project/DICE-Configuration-TL4CO},
+  version   = {1.0.0},
+  date      = {2017-09-04}
+} 
+
+@inproceedings{PJ:ECSA15,
+  title     = {Software architecture for the cloud--a roadmap towards control-theoretic, model-based cloud architecture},
+  author    = {Pahl, Claus and Jamshidi, Pooyan},
+  booktitle = ECSA,
+  pages     = {212--220},
+  year      = {2015},
+  publisher = {Springer}
+}
+
+@article{CSSASS:TAAS17,
+  title     = {Control Strategies for Self-Adaptive Software Systems},
+  author    = {Filieri, Antonio and Maggio, Martina and Angelopoulos, Konstantinos and D’ippolito, Nicol{\'a}s and Gerostathopoulos, Ilias and Hempel, Andreas Berndt and Hoffmann, Henry and Jamshidi, Pooyan and Kalyvianaki, Evangelia and Klein, Cristian and others},
+  journal   = TAAS,
+  volume    = {11},
+  number    = {4},
+  pages     = {24},
+  year      = {2017},
+  publisher = {ACM}
+}
+
+@inproceedings{JP:MiSE12,
+  title     = {Business process and software architecture model co-evolution patterns},
+  author    = {Jamshidi, Pooyan and Pahl, Claus},
+  booktitle = {Proceedings of the 4th International Workshop on Modeling in Software Engineering},
+  pages     = {91--97},
+  year      = {2012},
+  publisher = {IEEE Press}
+}
+
+@article{PBSJ:TCC,
+  title     = {Cloud Container Technologies: a State-of-the-Art Review},
+  author    = {Pahl, Claus and Brogi, Antonio and Soldani, Jacopo and Jamshidi, Pooyan},
+  journal   = TCC,
+  year      = {2017},
+  publisher = {IEEE}
+}
+
+@inproceedings{BMTJN:WICSA,
+  title     = {Continuous Architecting of Stream-Based Systems},
+  author    = {Bersani, Marcello M and Marconi, Francesco and Tamburri, Damian A and Jamshidi, Pooyan and Nodari, Andrea},
+  booktitle = {Working IEEE/IFIP Conference on Software Architecture (WICSA)},
+  pages     = {146--151},
+  year      = {2016},
+  publisher = {IEEE}
+}
+
+@inproceedings{NJGST:QUDOS16,
+  title     = {A software architecture framework for quality-aware devops},
+  author    = {Di Nitto, Elisabetta and Jamshidi, Pooyan and Guerriero, Michele and Spais, Ilias and Tamburri, Damian A},
+  booktitle = {Proceedings of the 2nd International Workshop on Quality-Aware DevOps},
+  pages     = {12--17},
+  year      = {2016},
+  publisher = {ACM}
+}
+
+@inproceedings{AMPJ:ECASE17,
+  title     = {Benchmark requirements for microservices architecture research},
+  author    = {Aderaldo, Carlos M and Mendon{\c{c}}a, Nabor C and Pahl, Claus and Jamshidi, Pooyan},
+  booktitle = {Proceedings of the 1st International Workshop on Establishing the Community-Wide Infrastructure for Architecture-Based Software Engineering},
+  pages     = {8--13},
+  year      = {2017},
+  publisher = {IEEE Press}
+}
+
+@article{BHJ:Software,
+  title     = {Microservices architecture enables DevOps: migration to a cloud-native architecture},
+  author    = {Balalaie, Armin and Heydarnoori, Abbas and Jamshidi, Pooyan},
+  journal   = {IEEE Software},
+  volume    = {33},
+  number    = {3},
+  pages     = {42--52},
+  year      = {2016},
+  publisher = {IEEE}
+}
+
+@inproceedings{BHJ:ESOCC15,
+  title     = {Migrating to cloud-native architectures using microservices: an experience report},
+  author    = {Balalaie, Armin and Heydarnoori, Abbas and Jamshidi, Pooyan},
+  booktitle = ESOCC,
+  pages     = {201--215},
+  year      = {2015},
+  publisher = {Springer}
+}
+
+@inproceedings{GJSH:CBSE12,
+  title     = {An architectural approach to ensure globally consistent dynamic reconfiguration of component-based systems},
+  author    = {Ghafari, Mohammad and Jamshidi, Pooyan and Shahbazi, Saeed and Haghighi, Hassan},
+  booktitle = {Proceedings of the 15th ACM SIGSOFT symposium on Component Based Software Engineering},
+  pages     = {177--182},
+  year      = {2012},
+  publisher = {ACM}
+}
+
+@inproceedings{JSM:SCC08,
+  title     = {To establish enterprise service model from enterprise business model},
+  author    = {Jamshidi, Pooyan and Sharifi, Mohsen and Mansour, Saeed},
+  booktitle = SCC,
+  volume    = {1},
+  pages     = {93--100},
+  year      = {2008},
+  publisher = {IEEE}
+}
+
+@article{GSJ:SoSym,
+  title     = {Enhancing the OPEN Process Framework with service-oriented method fragments},
+  author    = {Gholami, Mahdi Fahmideh and Sharifi, Mohsen and Jamshidi, Pooyan},
+  journal   = SoSym,
+  volume    = {13},
+  number    = {1},
+  pages     = {361--390},
+  year      = {2014},
+  publisher = {Springer}
+}
+
+@article{JAP:TCC,
+  title     = {Cloud migration research: a systematic review},
+  author    = {Jamshidi, Pooyan and Ahmad, Aakash and Pahl, Claus},
+  journal   = TCC,
+  volume    = {1},
+  number    = {2},
+  pages     = {142--157},
+  year      = {2013},
+  publisher = {IEEE}
+}
+
+@Misc{GoogleCloudIncident17,
+  author    = {Google Cloud Networking Incident},
+  note      = {https://status.cloud.google.com/incident/cloud-networking/17002},
+  date      = {2017-05-12}
+} 
+
+@Misc{GoogleScaleConfiguration,
+  author    = {Matt Welsh. What I wish systems researchers would work on},
+  note      = {http://matt-welsh.blogspot.com/2013/05/what-i-wish-systems-researchers-would.html
+},
+  date      = {2017-05-12}
+} 
+
+
+@inproceedings{LCWJ:ICML15,
+  title     = {Learning transferable features with deep adaptation networks},
+  author    = {Long, Mingsheng and Cao, Yue and Wang, Jianmin and Jordan, Michael},
+  booktitle = ICML,
+  pages     = {97--105},
+  year      = {2015}
+}
+
+@inproceedings{YCBL:NIPS14,
+  title     = {How transferable are features in deep neural networks?},
+  author    = {Yosinski, Jason and Clune, Jeff and Bengio, Yoshua and Lipson, Hod},
+  booktitle = NIPS,
+  pages     = {3320--3328},
+  year      = {2014}
+}
+
+@article{HVD:Arxiv15,
+  title     = {Distilling the knowledge in a neural network},
+  author    = {Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff},
+  journal   = {arXiv preprint arXiv:1503.02531},
+  year      = {2015}
+}
+
+@article{GY:Arxiv,
+  title     = {Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning},
+  author    = {Ge, Weifeng and Yu, Yizhou},
+  journal   = {arXiv preprint arXiv:1702.08690},
+  year      = {2017}
+}
+
+@inproceedings{XJHZLJP:OSDI16,
+  title     = {Early detection of configuration errors to reduce failure damage},
+  author    = {Xu, Tianyin and Jin, Xinxin and Huang, Peng and Zhou, Yuanyuan and Lu, Shan and Jin, Long and Pasupathy, Shankar},
+  booktitle = OSDI,
+  pages     = {619--634},
+  year      = {2016},
+  publisher = {USENIX Association}
+}
+
+@article{DB:CSUR,
+  title     = {The operational analysis of queueing network models},
+  author    = {Denning, Peter J and Buzen, Jeffrey P},
+  journal   = {ACM Computing Surveys (CSUR)},
+  volume    = {10},
+  number    = {3},
+  pages     = {225--261},
+  year      = {1978},
+  publisher = {ACM}
+}
+
+@inproceedings{XNLZ:CHI17,
+  title     = {How Do System Administrators Resolve Access-Denied Issues in the Real World?},
+  author    = {Xu, Tianyin and Naing, Han Min and Lu, Le and Zhou, Yuanyuan},
+  booktitle = {Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
+  pages     = {348--361},
+  year      = {2017},
+  publisher = {ACM}
+}
+
+@article{XZ:CSUR,
+  title     = {Systems approaches to tackling configuration errors: A survey},
+  author    = {Xu, Tianyin and Zhou, Yuanyuan},
+  journal   = {ACM Computing Surveys (CSUR)},
+  volume    = {47},
+  number    = {4},
+  pages     = {70},
+  year      = {2015},
+  publisher = {ACM}
+}
+
+@inproceedings{TG:ECOOP16,
+  title     = {Staccato: A Bug Finder for Dynamic Configuration Updates (Artifact)},
+  author    = {Toman, John and Grossman, Dan},
+  booktitle = {DARTS-Dagstuhl Artifacts Series},
+  volume    = {2},
+  year      = {2016},
+  publisher = {Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik}
+}
+
+@inproceedings{AJP:CAiSE12,
+  title     = {Graph-based pattern identification from architecture change logs},
+  author    = {Ahmad, Aakash and Jamshidi, Pooyan and Pahl, Claus},
+  booktitle = {Advanced Information Systems Engineering Workshops},
+  pages     = {200--213},
+  year      = {2012},
+  publisher = {Springer}
+}
+
+@article{JPM:SPE17,
+  title     = {Pattern-based multi-cloud architecture migration},
+  author    = {Jamshidi, Pooyan and Pahl, Claus and Mendon{\c{c}}a, Nabor C},
+  journal   = {Software: Practice and Experience},
+  volume    = {47},
+  number    = {9},
+  pages     = {1159--1184},
+  year      = {2017},
+  publisher = {Wiley Online Library}
+}
+
+@article{MCM:JEP,
+  title     = {Computing whether she belongs: Stereotypes undermine girls’ interest and sense of belonging in computer science.},
+  author    = {Master, Allison and Cheryan, Sapna and Meltzoff, Andrew N},
+  journal   = {Journal of Educational Psychology},
+  volume    = {108},
+  number    = {3},
+  pages     = {424},
+  year      = {2016},
+  publisher = {American Psychological Association}
+}
+
+@inproceedings{AB:CRA,
+  title     = {Recruitment and retention of underrepresented minority graduate students in computer science},
+  author    = {Aspray, William and Bernat, Andrew},
+  booktitle = {Report on a Workshop by the Coalition to Diversity Computing},
+  year      = {2000}
 }
