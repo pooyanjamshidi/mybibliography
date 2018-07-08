@@ -6,7 +6,7 @@
 @String{QoSA          = {Proc. Int'l Conf. on Quality of Software Architectures (QoSA)}}
 @String{ASE           = {Proc. Int'l Conf. Automated Software Engineering (ASE)}}
 @String{ASPLOS        = {Proc. Int'l Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS)}}
-@String{SEAMS         = {Proc. Int'l Symp. Software Engineering for Adaptive and Self-Managing Systems (\textbf{SEAMS})}}
+@String{SEAMS         = {Proc. Int'l Symp. Software Engineering for Adaptive and Self-Managing Systems (SEAMS)}}
 @String{MASCOTS       = {Proc. Int'l Symp. on Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS)}}
 @String{AWL           = {Addison-Wesley}}
 @String{AWLAddr       = {Boston, MA, USA}}
@@ -52,12 +52,12 @@
 @String{TKDE          = "IEEE Trans. on Knowledge and Data Eng. (TKDE)"}
 @String{SIGMETRICS    = "SIGMETRICS Perform. Eval. Rev."}
 @String{SPLC          = "Proc. Int'l Software Product Line Conference (SPLC)"}
-@String{CCGRID        = "Proc. Int'l Symposium on Cluster, Cloud and Grid Computing (\textbf{CCGrid})"}
+@String{CCGRID        = "Proc. Int'l Symposium on Cluster, Cloud and Grid Computing (CCGrid)"}
 @String{ECSA          = "Proc. of European Conference on Software Architecture (ECSA)"}
 @String{TAAS          = "ACM Trans. on Autonomous and Adaptive Systems (TAAS)"}
 @String{TCC           = "IEEE Transactions on Cloud Computing (TCC)"}
 @String{SCC           = "Proc. Int'l Conference on Services Computing (SCC)"}
-@String{JSEP          = "Wiley Journal of Software: Evolution and Process (\textbf{JSEP})"}
+@String{JSEP          = "Wiley Journal of Software: Evolution and Process (JSEP)"}
 @String{ICML          = "Proc. of Int'l Conference on Machine Learning (ICML)"}
 @String{NIPS          = "Proc. of Advances in neural information processing systems (NIPS)"}
 @String{NIPS          = "Proc. of 12th USENIX conference on Operating Systems Design and Implementation (OSDI)"}
@@ -1319,6 +1319,29 @@ note = {\url{www.cs.ucr.edu/~eamonn/time_series_data/}}
   year={2018}
 }
 
+
+@InProceedings{JVKS:FSE18,
+  title     = {Learning to Sample: Exploiting Similarities Across Environments to Learn Performance Models for Configurable Systems},
+  author    = {Jamshidi, Pooyan and Velez, Miguel and K\"{a}stner, Christian and Siegmund, Norbert},
+  booktitle = FSE,
+  year      = {2018},
+  publisher = {ACM}
+} 
+
+@inproceedings{MKRGA:ICSE16,
+  author={Fl{\'a}vio Medeiros and Christian K{\"a}stner and M{\'a}rcio Ribeiro and Rohit Gheyi and Sven Apel},
+  location={Austin, TX},
+  pages={643--654},
+  year={2016},
+  publisher={ACM Press},
+  booktitle=ICSE,
+  address={New York, NY},
+  title={A Comparison of 10 Sampling Algorithms for Configurable Systems},
+  doi={http://dx.doi.org/10.1145/2884781.2884793},
+  month={5},
+}
+
+
 % % % Others, mostly for grant writing, etc, not core to my research
 
 @article{dahl2012context,
@@ -1522,4 +1545,378 @@ note = {\url{www.cs.ucr.edu/~eamonn/time_series_data/}}
   pages={1351--1361},
   year={2015},
   organization={International World Wide Web Conferences Steering Committee}
+}
+
+@article{cai2017neuralpower,
+  title={Neuralpower: Predict and deploy energy-efficient convolutional neural networks},
+  author={Cai, Ermao and Juan, Da-Cheng and Stamoulis, Dimitrios and Marculescu, Diana},
+  journal={arXiv preprint arXiv:1710.05420},
+  year={2017}
+}
+
+@article{stamoulis2017hyperpower,
+  title={HyperPower: Power-and Memory-Constrained Hyper-Parameter Optimization for Neural Networks},
+  author={Stamoulis, Dimitrios and Cai, Ermao and Juan, Da-Cheng and Marculescu, Diana},
+  journal={arXiv preprint arXiv:1712.02446},
+  year={2017}
+}
+
+@inproceedings{reagen2017case,
+  title={A case for efficient accelerator design space exploration via Bayesian optimization},
+  author={Reagen, Brandon and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel and Adolf, Robert and Gelbart, Michael and Whatmough, Paul and Wei, Gu-Yeon and Brooks, David},
+  booktitle={IEEE/ACM International Symposium on Low Power Electronics and Design},
+  pages={1--6},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{yang2017designing,
+  title={Designing energy-efficient convolutional neural networks using energy-aware pruning},
+  author={Yang, Tien-Ju and Chen, Yu-Hsin and Sze, Vivienne},
+  journal={arXiv preprint},
+  year={2017}
+}
+
+@article{inference2015performance,
+  title={Inference, GPU-Based Deep Learning: A Performance and Power Analysis},
+  author={},
+  journal={Whitepaper, November},
+  year={2015}
+}
+
+@inproceedings{guo2016dynamic,
+  title={Dynamic network surgery for efficient dnns},
+  author={Guo, Yiwen and Yao, Anbang and Chen, Yurong},
+  booktitle={Advances In Neural Information Processing Systems},
+  pages={1379--1387},
+  year={2016}
+}
+
+@article{hu2016network,
+  title={Network trimming: A data-driven neuron pruning approach towards efficient deep architectures},
+  author={Hu, Hengyuan and Peng, Rui and Tai, Yu-Wing and Tang, Chi-Keung},
+  journal={arXiv preprint arXiv:1607.03250},
+  year={2016}
+}
+
+@article{lin2013network,
+  title={Network in network},
+  author={Lin, Min and Chen, Qiang and Yan, Shuicheng},
+  journal={arXiv preprint arXiv:1312.4400},
+  year={2013}
+}
+
+@article{iandola2016squeezenet,
+  title={SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size},
+  author={Iandola, Forrest N and Han, Song and Moskewicz, Matthew W and Ashraf, Khalid and Dally, William J and Keutzer, Kurt},
+  journal={arXiv preprint arXiv:1602.07360},
+  year={2016}
+}
+
+@inproceedings{he2016deep,
+  title={Deep residual learning for image recognition},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={770--778},
+  year={2016}
+}
+
+@inproceedings{wu2016quantized,
+  title={Quantized convolutional neural networks for mobile devices},
+  author={Wu, Jiaxiang and Leng, Cong and Wang, Yuhang and Hu, Qinghao and Cheng, Jian},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={4820--4828},
+  year={2016}
+}
+
+@article{kim2015compression,
+  title={Compression of deep convolutional neural networks for fast and low power mobile applications},
+  author={Kim, Yong-Deok and Park, Eunhyeok and Yoo, Sungjoo and Choi, Taelim and Yang, Lu and Shin, Dongjun},
+  journal={arXiv preprint arXiv:1511.06530},
+  year={2015}
+}
+
+@inproceedings{reagen2016minerva,
+  title={Minerva: Enabling low-power, highly-accurate deep neural network accelerators},
+  author={Reagen, Brandon and Whatmough, Paul and Adolf, Robert and Rama, Saketh and Lee, Hyunkwang and Lee, Sae Kyu and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel and Wei, Gu-Yeon and Brooks, David},
+  booktitle={ACM SIGARCH Computer Architecture News},
+  volume={44},
+  number={3},
+  pages={267--278},
+  year={2016},
+  organization={IEEE Press}
+}
+
+@article{bergstra2013making,
+  title={Making a science of model search: Hyperparameter optimization in hundreds of dimensions for vision architectures},
+  author={Bergstra, James and Yamins, Daniel and Cox, David Daniel},
+  year={2013},
+  publisher={JMLR}
+}
+
+@article{stanley2002evolving,
+  title={Evolving neural networks through augmenting topologies},
+  author={Stanley, Kenneth O and Miikkulainen, Risto},
+  journal={Evolutionary computation},
+  volume={10},
+  number={2},
+  pages={99--127},
+  year={2002},
+  publisher={MIT Press}
+}
+
+@article{floreano2008neuroevolution,
+  title={Neuroevolution: from architectures to learning},
+  author={Floreano, Dario and D{\"u}rr, Peter and Mattiussi, Claudio},
+  journal={Evolutionary Intelligence},
+  volume={1},
+  number={1},
+  pages={47--62},
+  year={2008},
+  publisher={Springer}
+}
+
+@article{real2017large,
+  title={Large-scale evolution of image classifiers},
+  author={Real, Esteban and Moore, Sherry and Selle, Andrew and Saxena, Saurabh and Suematsu, Yutaka Leon and Tan, Jie and Le, Quoc and Kurakin, Alex},
+  journal={arXiv preprint arXiv:1703.01041},
+  year={2017}
+}
+
+@article{zoph2016neural,
+  title={Neural architecture search with reinforcement learning},
+  author={Zoph, Barret and Le, Quoc V},
+  journal={arXiv preprint arXiv:1611.01578},
+  year={2016}
+}
+
+@inproceedings{rouhani2016delight,
+  title={Delight: Adding energy dimension to deep neural networks},
+  author={Rouhani, Bita Darvish and Mirhoseini, Azalia and Koushanfar, Farinaz},
+  booktitle={Proceedings of the 2016 International Symposium on Low Power Electronics and Design},
+  pages={112--117},
+  year={2016},
+  organization={ACM}
+}
+
+@inproceedings{smithson2016neural,
+  title={Neural networks designing neural networks: multi-objective hyper-parameter optimization},
+  author={Smithson, Sean C and Yang, Guang and Gross, Warren J and Meyer, Brett H},
+  booktitle={Computer-Aided Design (ICCAD), 2016 IEEE/ACM International Conference on},
+  pages={1--8},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{han2015learning,
+  title={Learning both weights and connections for efficient neural network},
+  author={Han, Song and Pool, Jeff and Tran, John and Dally, William},
+  booktitle={Advances in neural information processing systems},
+  pages={1135--1143},
+  year={2015}
+}
+
+@article{zhu2018mobile,
+  title={Mobile Machine Learning Hardware at ARM: A Systems-on-Chip (SoC) Perspective},
+  author={Zhu, Yuhao and Mattina, Matthew and Whatmough, Paul},
+  journal={arXiv preprint arXiv:1801.06274},
+  year={2018}
+}
+
+@inproceedings{hassibi1993second,
+  title={Second order derivatives for network pruning: Optimal brain surgeon},
+  author={Hassibi, Babak and Stork, David G},
+  booktitle={Advances in neural information processing systems},
+  pages={164--171},
+  year={1993}
+}
+
+@inproceedings{lecun1990optimal,
+  title={Optimal brain damage},
+  author={LeCun, Yann and Denker, John S and Solla, Sara A},
+  booktitle={Advances in neural information processing systems},
+  pages={598--605},
+  year={1990}
+}
+
+@inproceedings{horowitz20141,
+  title={1.1 computing's energy problem (and what we can do about it)},
+  author={Horowitz, Mark},
+  booktitle={Solid-State Circuits Conference Digest of Technical Papers (ISSCC), 2014 IEEE International},
+  pages={10--14},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{chen2016eyeriss,
+  title={Eyeriss: A spatial architecture for energy-efficient dataflow for convolutional neural networks},
+  author={Chen, Yu-Hsin and Emer, Joel and Sze, Vivienne},
+  booktitle={ACM SIGARCH Computer Architecture News},
+  volume={44},
+  number={3},
+  pages={367--379},
+  year={2016},
+  organization={IEEE Press}
+}
+
+@article{tian2017deeptest,
+  title={DeepTest: Automated testing of deep-neural-network-driven autonomous cars},
+  author={Tian, Yuchi and Pei, Kexin and Jana, Suman and Ray, Baishakhi},
+  journal={arXiv preprint arXiv:1708.08559},
+  year={2017}
+}
+
+@article{gelbart2014bayesian,
+  title={Bayesian optimization with unknown constraints},
+  author={Gelbart, Michael A and Snoek, Jasper and Adams, Ryan P},
+  journal={arXiv preprint arXiv:1403.5607},
+  year={2014}
+}
+
+@inproceedings{lane2016deepx,
+  title={Deepx: A software accelerator for low-power deep learning inference on mobile devices},
+  author={Lane, Nicholas D and Bhattacharya, Sourav and Georgiev, Petko and Forlivesi, Claudio and Jiao, Lei and Qendro, Lorena and Kawsar, Fahim},
+  booktitle={15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)},
+  pages={1--12},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{chandola2009anomaly,
+  title={Anomaly detection: A survey},
+  author={Chandola, Varun and Banerjee, Arindam and Kumar, Vipin},
+  journal={ACM computing surveys (CSUR)},
+  volume={41},
+  number={3},
+  pages={15},
+  year={2009},
+  publisher={ACM}
+}
+
+@inproceedings{bruce2015reducing,
+  title={Reducing energy consumption using genetic improvement},
+  author={Bruce, Bobby R and Petke, Justyna and Harman, Mark},
+  booktitle={Proceedings of the 2015 Annual Conference on Genetic and Evolutionary Computation},
+  pages={1327--1334},
+  year={2015},
+  organization={ACM}
+}
+
+@article{koomey2011growth,
+  title={Growth in data center electricity use 2005 to 2010},
+  author={Koomey, Jonathan},
+  journal={A report by Analytical Press, completed at the request of The New York Times},
+  volume={9},
+  year={2011}
+}
+
+@article{brown2010toward,
+  title={Toward energy-efficient computing},
+  author={Brown, David J and Reams, Charles},
+  journal={Queue},
+  volume={8},
+  number={2},
+  pages={30},
+  year={2010},
+  publisher={ACM}
+}
+
+@article{riva2012gesi,
+  title={GeSI SMARTer 2020: the Role of ICT in Driving a Sustainable Future},
+  author={Riva, Danilo},
+  year={2012}
+}
+
+@inproceedings{manotas2014seeds,
+  title={SEEDS: a software engineer's energy-optimization decision support framework},
+  author={Manotas, Irene and Pollock, Lori and Clause, James},
+  booktitle={Proceedings of the 36th International Conference on Software Engineering},
+  pages={503--514},
+  year={2014},
+  organization={ACM}
+}
+
+@inproceedings{sahin2014code,
+  title={How do code refactorings affect energy usage?},
+  author={Sahin, Cagri and Pollock, Lori and Clause, James},
+  booktitle={Proceedings of the 8th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement},
+  pages={36},
+  year={2014},
+  organization={ACM}
+}
+
+@inproceedings{da2010evaluation,
+  title={Evaluation of the impact of code refactoring on embedded software efficiency},
+  author={da Silva, Wellisson GP and Brisolara, Lisane and Correa, Ulisses B and Carro, Luigi},
+  booktitle={Proceedings of the 1st Workshop de Sistemas Embarcados},
+  pages={145--150},
+  year={2010}
+}
+
+@inproceedings{bunse2009choosing,
+  title={Choosing the ``Best`` Sorting Algorithm for Optimal Energy Consumption.},
+  author={Bunse, Christian and H{\"o}pfner, Hagen and Roychoudhury, Suman and Mansour, Essam},
+  booktitle={ICSOFT (2)},
+  pages={199--206},
+  year={2009}
+}
+
+@book{phones,
+  title={Number of mobile phone users worldwide from 2015 to 2020 (in billions)},
+  note={https://www.statista.com/statistics/274774/forecast-of-mobile-phone-users-worldwide/},
+  year={2018}
+}
+
+@article{bruce2018approximate,
+  title={Approximate oracles and synergy in software energy search spaces},
+  author={Bruce, Bobby Ralph and Petke, Justyna and Harman, Mark and Barr, Earl T},
+  journal={IEEE Transactions on Software Engineering},
+  year={2018},
+  publisher={IEEE}
+}
+
+@article{pang2016programmers,
+  title={What do programmers know about software energy consumption?},
+  author={Pang, Candy and Hindle, Abram and Adams, Bram and Hassan, Ahmed E},
+  journal={IEEE Software},
+  volume={33},
+  number={3},
+  pages={83--89},
+  year={2016},
+  publisher={IEEE}
+}
+
+@article{qi2016paleo,
+  title={Paleo: A performance model for deep neural networks},
+  author={Qi, Hang and Sparks, Evan R and Talwalkar, Ameet},
+  year={2016}
+}
+
+@article{sze2017efficient,
+  title={Efficient processing of deep neural networks: A tutorial and survey},
+  author={Sze, Vivienne and Chen, Yu-Hsin and Yang, Tien-Ju and Emer, Joel S},
+  journal={Proceedings of the IEEE},
+  volume={105},
+  number={12},
+  pages={2295--2329},
+  year={2017},
+  publisher={IEEE}
+}
+
+@article{chen2understanding,
+  title={Understanding the Limitations of Existing Energy-Efficient Design Approaches for Deep Neural Networks},
+  author={Chen, Yu-Hsin and Yang, Tien-Ju and Emer, Joel and Sze, Vivienne},
+  journal={Energy},
+  volume={2},
+  number={L1},
+  pages={L3}
+}
+
+@inproceedings{rouhani2016delight,
+  title={Delight: Adding energy dimension to deep neural networks},
+  author={Rouhani, Bita Darvish and Mirhoseini, Azalia and Koushanfar, Farinaz},
+  booktitle={Proceedings of the 2016 International Symposium on Low Power Electronics and Design},
+  pages={112--117},
+  year={2016},
+  organization={ACM}
 }
